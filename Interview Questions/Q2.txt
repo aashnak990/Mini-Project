@@ -1,0 +1,10 @@
+What do you mean by index in routing? On which url the following components will be accessed?
+
+path: '/',
+children : [
+	{path: '/student',children:[
+		{path:'/student/competitions', element: <Competitions/>}
+		{index:true, element: <Student />}
+	]},
+	{index:true, element: <Home />}
+]

@@ -1,0 +1,3 @@
+Explain spread operator? How can you combine the following arrays using spread operator?
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];

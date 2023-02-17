@@ -1,0 +1,2 @@
+How can you remove element 2 from the given array using destructuring of array?
+let numbers = [1,2,3,4,5];

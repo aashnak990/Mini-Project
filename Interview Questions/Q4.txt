@@ -1,0 +1,1 @@
+In useState hook , what is the return value type is array but how many elements are there in that array and define each element? Also write the sytax of defining useState?

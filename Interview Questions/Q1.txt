@@ -1,0 +1,11 @@
+What will be the output of the code?
+const age;
+age = 13;
+
+console.log(age);
+
+What will be the output of this code?
+age = 13;
+console.log(age);
+
+var age;

@@ -1,0 +1,6 @@
+Suppose you have a class name defined as form-input in a module.css file imported as style obj, how will you aaply this class on any form input and why others will not work?
+
+1. className = {style.form-input}
+2. className = {[style.form-input]}
+3. className = {style['form-input']}
+4. className = [{style.form-input}]

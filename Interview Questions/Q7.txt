@@ -1,0 +1,1 @@
+In react routing how can you show error page if a url entered is not defined in react routing? Write a code to show its syntax?
