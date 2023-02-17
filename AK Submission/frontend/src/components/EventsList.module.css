@@ -1,0 +1,67 @@
+.eventsCard {
+  min-height:320px;
+  width:100%;
+  margin-bottom:6%;
+}
+.eventsImage {
+  padding:5%;
+  border-radius: 20px!important;
+  height:200px;
+}
+.eventsTitle {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.eventsDescription {
+  font-size: 0.95em;
+}
+.eventsSubTitle{
+  font-size: 0.8em;
+}
+.eventsButton,.eventsButton:hover,.eventsButton:active{
+  color:#FFFFFF;
+  background: #224B7F;
+  border:none;
+  border-radius: 4px;
+}
+
+@media(max-width:480px){
+  .eventsImage {
+    height:250px;
+  }
+  .eventsTitle {
+    font-size: 1.5em;
+  }
+  .eventsDescription {
+    font-size: 1em;
+  }
+  .eventsSubTitle{
+    font-size: 0.9em;
+  }
+  .eventsButton,.eventsButton:hover,.eventsButton:active{
+    font-size: 1em;
+  }
+  .eventsCard {
+    min-height:300px;
+  }
+}
+@media(min-width:480px) and (max-width:920px){
+  .eventsImage {
+    height:150px;
+  }
+  .eventsTitle {
+    font-size: 1em;
+  }
+  .eventsDescription {
+    font-size: 0.8em;
+  }
+  .eventsSubTitle{
+    font-size: 0.7em;
+  }
+  .eventsButton,.eventsButton:hover,.eventsButton:active{
+    font-size: 0.8em;
+  }
+  .eventsCard {
+    min-height:300px;
+  }
+}
